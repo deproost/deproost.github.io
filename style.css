@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('font/gotham.otf');
+}
+
+header{
+    font-family: Gotham;
+}
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  svg {
+    animation: fadeIn 1s ease-in infinite alternate;
+   
+  }
