@@ -5,26 +5,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="fonts/gotham.otf" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="/fonts/gotham.otf" rel="stylesheet" type="otf">
 <link rel="stylesheet" href="style.css">
+<script src="/js/navbar.js"></script>
 </head>
 <body>
 
+    <!-- Navbar -->
 <div class="w3-top">
-
-  <!-- Header -->
-  <header class="w3-container w3-xlarge w3-padding-24 w3-black">
-    <a href="/index.html" class="w3-left">
-        <img src="img/logo.svg" class="w3-image w3-animate-opacity" alt="logo" style="width:100%;max-width:400px">
+    <header class="w3-container w3-xlarge w3-padding-24 w3-black w3-left-align w3-padding-24">
+     <a href="/index.html" class="w3-bar-item">
+        <img src="img/logo.svg" class="w3-image w3-animate-opacity" alt="logo" style="width:100%;max-width:400px"></a>
+     <a class="w3-button w3-hide-large w3-right w3-xlarge w3-padding-12" href="javascript:void(0);" onclick="openNav()">
+        <i class="fa fa-bars"></i>
     </a>
-    <a href="/contact.html" class="w3-right w3-button w3-animate-right">Contact</a>
-    <a href="/graphics.html" class="w3-right w3-button w3-animate-right">Graphics</a>
-    <a href="/research.html" class="w3-right w3-button w3-animate-right">Research</a>
-    <a href="/about.html" class="w3-right w3-button w3-animate-right">About</a>
-  </header>
+     <a href="/contact.html" class="w3-right w3-button w3-animate-right w3-hide-medium w3-hide-small">Contact</a>
+     <a href="/graphics.html" class="w3-right w3-button w3-animate-right w3-hide-medium w3-hide-small">Graphics</a>
+     <a href="/research.html" class="w3-right w3-button w3-animate-right w3-hide-medium w3-hide-small">Research</a>
+     <a href="/about.html" class="w3-right w3-button w3-animate-right w3-hide-medium w3-hide-small">About</a>
+    </header>
+   
+     <!-- Navbar on small screens -->
+     <div id="sidenav" class="w3-bar-block w3-black w3-left-align w3-hide w3-hide-large">
+       <a href="/about.html" class="w3-bar-item w3-button w3-animate-left w3-xlarge gotham">About</a>
+       <a href="/research.html" class="w3-bar-item w3-button w3-animate-left w3-xlarge gotham">Research</a>       
+       <a href="/graphics.html" class="w3-bar-item w3-button w3-animate-left w3-xlarge gotham">Graphics</a>
+       <a href="/contact.html" class="w3-bar-item w3-button w3-animate-left w3-xlarge gotham">Contact</a>
+     </div>
+   </div>
+   
 
 
-</div>
  
 </body>
 </html>
