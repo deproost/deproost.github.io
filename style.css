@@ -5,6 +5,7 @@
 
 header{
     font-family: Gotham;
+    max-height: 10%;
 }
 
 .gotham{
@@ -12,12 +13,18 @@ header{
 }
 
 #hamburger{
-    padding-top: 5px;
+    padding-top: 0.5%;
 }
 
 #sidenav{
     padding-bottom: 5%;
 }
+
+#logo{
+    width: 80%;
+    max-width: 400px;
+}
+
 
   @keyframes fadeIn {
     from {

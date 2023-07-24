@@ -12,11 +12,14 @@ function w3_open() {
   }
   
   // Used to toggle the menu on smaller screens when clicking on the menu button
-  function openNav() {
+  function openNav(anchor) {
     var x = document.getElementById("sidenav");
     if (x.className.indexOf("w3-show") == -1) {
       x.className += " w3-show";
     } else { 
       x.className = x.className.replace(" w3-show", "");
     }
+    var icon = anchor.querySelector("i");
+    icon.classList.toggle('fa-bars');
+    icon.classList.toggle('fa-close');
   }
