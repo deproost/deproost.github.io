@@ -1,6 +1,10 @@
-@font-face {
+@font-face{
     font-family: 'Gotham';
     src: url('font/gotham.otf');
+}
+
+html{
+    background-color: #202020;
 }
 
 header{
