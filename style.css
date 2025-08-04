@@ -13,6 +13,11 @@ header{
 
 }
 
+nav ul{
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
 h4{
   text-align: justify;
 }
